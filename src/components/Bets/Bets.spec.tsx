@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import Home from './Home';
+import Bets from './Bets';
 import { mockItem } from '../../tests/mocks/dataMocks';
 
 const mockFetch = jest
@@ -17,10 +17,10 @@ jest.mock('../../hooks/useFetchData', () => {
 });
 
 const renderComponent = () => {
-  render(<Home />);
+  render(<Bets />);
 };
 
-describe('<Home/> specs', () => {
+describe('<Bets /> specs', () => {
   it('should fetch the data on init', () => {
     mockUseFetchData.error = false;
     renderComponent();

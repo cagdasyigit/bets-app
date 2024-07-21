@@ -1,11 +1,11 @@
 import React from 'react';
-import Home from './components/Home';
+import Bets from './components/Bets';
 import CheckoutProvider from './providers/CheckoutProvider/CheckoutProvider';
 
 function App() {
   return (
     <CheckoutProvider>
-      <Home />
+      <Bets />
     </CheckoutProvider>
   );
 }
