@@ -1,0 +1,25 @@
+@import "../../styles";
+
+.home-container {
+  padding: 16px;
+
+  @media screen and (max-width: $sm) {
+    padding: 0;
+  }
+
+  table, th, td {
+    border: 0.5px solid #333;
+    padding: 4px;
+    text-align: center;
+
+    &:first-child {
+      text-align: left;
+    }
+  }
+
+  table {
+    width: 100%;
+    min-width: 1024px;
+    overflow-x: auto;
+  }
+}

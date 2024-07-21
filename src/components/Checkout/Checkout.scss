@@ -1,0 +1,27 @@
+.checkout-container {
+  position: fixed;
+  right: 18px;
+  bottom: 45px;
+  width: 320px;
+  height: 160px;
+  padding: 8px;
+  z-index: 1;
+  border: 1px solid #333;
+  background-color: white;
+
+  main {
+    height: 140px;
+    overflow-y: auto;
+
+    ul {
+      padding: 0;
+      margin: 0;
+
+      li {
+        font-size: 12px;
+        list-style: none;
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
